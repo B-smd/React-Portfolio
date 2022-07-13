@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
           <Route
             path="/projects"
             element={<Projects/>}
+          />
+          <Route
+            path="/resume"
+            element={<Resume/>}
           />
         </Routes>
         <Footer/>

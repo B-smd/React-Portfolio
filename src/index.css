@@ -1,3 +1,17 @@
+@charset "utf-8";
+/* Simplify width and height calculations */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+@import url("https://use.typekit.net/hwq0pun.css");
+.col {
+  width:100%;
+  height:100%;
+}
 body {
   /* font-family: 'Open Sans', sans-serif; */
   font-family: kandin, sans-serif;
@@ -13,24 +27,14 @@ body {
       font-family: kandin, sans-serif;
 
 }
+h2 #menulink {
+          /* font-family: 'Open Sans', sans-serif; */
+          font-family: kandin, sans-serif;
+}
 
 
 /* ======= the following is from style.css */
 
-@charset "utf-8";
-/* Simplify width and height calculations */
-
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-@import url("https://use.typekit.net/hwq0pun.css");
-.col {
-  width:100%;
-  height:100%;
-}
 
 body {
     margin: 0;
@@ -41,11 +45,11 @@ body {
     font-size: 1em;
     background-color: #EFF5F8;
 }
-#wrapper {
+body {
     width: 100%;
     margin: 0 auto;
     max-width: 1000px;
-    background-color: rgb(255, 254, 254);
+    background-color: Black;
 }
 h1, h2 {
     color: #1E1E1E;
@@ -61,26 +65,29 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-h2 {
-    margin-top: 0.5em;
-    font-size: 2.25em;
-}
 h3 {
     margin-top: 1em;
     color:rgb(26, 57, 82)
+}
+#wrapper {
+    background-color: black;
 }
 a {
     font-weight:300;
     text-decoration: none;
 }
+h6 {
+    text-align: center;
+}
+
 a:link {
-    color: #eb2d10;
+    color: #10ebd2;
 }
 a:visited {
-    color: rgb(201, 17, 17);
+    color: rgb(230, 20, 20);
 }
 a:hover, a:active, a:focus {
-    color: #7F3300;
+    color: dodgerblue;
     text-decoration: underline;
 }
 #menulink {
@@ -107,8 +114,8 @@ a:hover, a:active, a:focus {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #000000;
-    background-color: rgba(0,0,0,0.65);
+    background-color: #f67c7c;
+    background-color: rgba(226, 155, 155, 0.65);
     position: absolute;
     -webkit-transition: all ease-out 0.5s;
     transition: all ease-out 0.5s;
@@ -135,7 +142,7 @@ a:hover, a:active, a:focus {
     text-transform: uppercase;
 }
 #navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
-    color: #F68979;
+    color: #cb3a23;
 }
 main, aside {
     margin-left: 4%;
@@ -170,6 +177,16 @@ figure {
 }
 figure img {
     max-width: 100%;
+}
+.user-logo {
+    border: none;
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 figcaption {
     display: block;
@@ -212,7 +229,7 @@ footer {
     padding-bottom: 15px;
     margin-bottom: 20px;
     float: left;
-    color: #1E1E1E;
+    color: aqua;
 }
 header {
     overflow: hidden;
@@ -231,8 +248,30 @@ header {
     right: 33px;
 }
 #hero {
+    width: 100%;
+    height: 65vh;
     position: relative;
 }
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+    color: white;
+}
+
 main {
     width: 60%;
 }

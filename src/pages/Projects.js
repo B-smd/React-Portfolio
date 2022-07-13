@@ -1,46 +1,33 @@
-import React, { userState } from "react";
+import React, { Component } from "react";
 
 import ProjectCard from "../components/ProjectCard";
+import Col from "../components/Col";
+import Row from "../components/Row";
 import projectData from "../data/projects.json"
 
 
+class Projects extends Component {
+    state = {
+        projects: projectData
+    }
 
-
-
-const Projects = () => {
-    const [projects, setProjects] = userState([])
-    setProjects(projectData)
-
-    console.log(projects)
-    return "est"
-    // return (
-    //     {projects.map( project => (
-    //         <ProjectCard
-    //             name={project.name}
-    //             github={project.github}
-    //         />
-    //     ))}
-    // );
+    render() {
+        return (
+            <Row>
+                {this.state.projects.map( project => (
+                        <Col>
+                            <ProjectCard
+                                name={project.name}
+                                github={project.github}
+                                image={project.image}
+                                description={project.description}
+                            />
+                            <hr/>
+                        </Col>
+                ))}
+            </Row>
+        );
+    }
 }
 
 export default Projects
-
-
-
-
-// class Projects extends Component {
-//     state = {
-//         projects
-//     }
-
-//     render() {
-//         return (
-//             {this.state.projects.map( project => {
-//                 <ProjectCard
-//                     name={project.name}
-//                     github={project.github}
-//                 />
-//             })}
-//         );
-//     }
-// }
