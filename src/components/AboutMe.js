@@ -7,19 +7,17 @@ export default function AboutMe() {
             
             
             <img className="user-logo" src ="img/profile.jpeg" alt="bambang"/>
-            <h2 className="text-center" style={{ color: "blue"}}>About Me</h2>
+            <h2 className="text-center" style={{ color: "aquamarine"}}>About Me</h2>
             <p style={{ color: "powderblue"}}>
-                I am Bambang a web developer and a graphic designer. I became an architect graduate from <a href="https://www.its.ac.id/arsitektur/">The Institut Teknologi Sepuluh Nopember (abbreviated as ITS) </a> 
+                I am Bambang Sugiarto Micha Djaja a web developer and a graphic designer. I became an architect graduate from <a href="https://www.its.ac.id/arsitektur/">The Institut Teknologi Sepuluh Nopember (abbreviated as ITS) </a> 
                 Surabaya, Indonesia, on the 1st November, 1980. I am an entrepreneur since December 1984, this is my history as an entrepreneur :  
-                12/1984-11/2000, PT SBPI (Surya Bangun Persada Indah) - Construction Company, Surabaya, Indonesia as a Commissioner.
-                06/1991-11/2000, Profa Design (PT Profa Lestari Indah) - Interior and Furniture Company, Jakarta, Indonesia as a Chairman.
-                10/2002-present, Midpower Holding Pty Ltd - Distributor, Coffee Shop and Passenger Transport Vehicle Perth, Australia as a Director.
+                In year 1984 - 2000, as a Commisioner in Construction Company. In year 1991 - 2000 as a Chairman in Interior and Furniture Company,
+                In year 2002 - Present as a Director in Small Business Company.
             </p>
                 
             <p  style={{ color: "powderblue"}}>
-            In order to display my design online and garner more public interest, I started learning web development at 
-            <a href="https://bootcamp.uwa.edu.au/coding/landing/?s=Google-Brand&pkw=%2Buwa%20%2Bcoding%20%2Bbootcamp&pcrid=494735218547&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-WESTERN-AUSTRALIA%7CSEM%7CCODING%7C-%7COFL%7CTIER-1%7CALL%7CBRD%7CBMM%7CCore%7CBootcamp&utm_term=%2Buwa%20%2Bcoding%20%2Bbootcamp&utm_content=494735218547&s=google&k=%2Buwa%20%2Bcoding%20%2Bbootcamp&gclid=CjwKCAjw3cSSBhBGEiwAVII0Z7i4MwLRSfnZiPRkIRS62Z55kXvEEoQsj8i3LO-iiNGi4mbaHy-0HhoCOJAQAvD_BwE&gclsrc=aw.ds">
-                Coding Bootcamp The University of Western Australia (UWA)</a> on the 7th February 2022.
+            In order to display my design online and garner more public interest, I started learning web development at  
+            <a href="https://bootcamp.uwa.edu.au/coding/landing/?s=Google-Brand&pkw=%2Buwa%20%2Bcoding%20%2Bbootcamp&pcrid=494735218547&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-WESTERN-AUSTRALIA%7CSEM%7CCODING%7C-%7COFL%7CTIER-1%7CALL%7CBRD%7CBMM%7CCore%7CBootcamp&utm_term=%2Buwa%20%2Bcoding%20%2Bbootcamp&utm_content=494735218547&s=google&k=%2Buwa%20%2Bcoding%20%2Bbootcamp&gclid=CjwKCAjw3cSSBhBGEiwAVII0Z7i4MwLRSfnZiPRkIRS62Z55kXvEEoQsj8i3LO-iiNGi4mbaHy-0HhoCOJAQAvD_BwE&gclsrc=aw.ds"> Coding Bootcamp The University of Western Australia (UWA)</a> on the 7th February 2022.
                 The course will finish in August 2022, I have enjoyed learning a variety of things, especiallly React.
             </p>
             <p style={{ color: "powderblue"}}>

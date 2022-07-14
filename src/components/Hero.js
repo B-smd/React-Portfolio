@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <div id="hero">
             <video src={videoBg} autoPlay loop muted/>
-            <div className="content">
-                <h2 style={{ color: "firebrick"}}>Welcome</h2>
+            <div className="content text-center">
+                <h2 style={{ color: "violet"}}>Welcome</h2>
                 <h6 style= {{color: "aqua"}}>I am a Web Developer and Graphic Designer</h6>
             </div>
             <p><img src="/img/bs.jpeg" alt="Bambang"/></p>

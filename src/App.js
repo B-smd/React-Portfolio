@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import ContactMe from './pages/ContactMe';
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
           <Route
             path="/resume"
             element={<Resume/>}
+          />
+          <Route
+            path="/contact"
+            element={<ContactMe/>}
           />
         </Routes>
         <Footer/>

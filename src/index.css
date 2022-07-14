@@ -12,6 +12,28 @@ html {
   width:100%;
   height:100%;
 }
+
+#root {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+} 
+
+.aboutme {
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+
+.contactme{
+    background-color: black;
+    width: 70%;
+    margin: auto;
+    
+
+}
 body {
   /* font-family: 'Open Sans', sans-serif; */
   font-family: kandin, sans-serif;
@@ -27,10 +49,15 @@ body {
       font-family: kandin, sans-serif;
 
 }
-h2 #menulink {
-          /* font-family: 'Open Sans', sans-serif; */
-          font-family: kandin, sans-serif;
+#menulink {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: kandin, sans-serif;
 }
+#navlink {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: kandin, sans-serif;
+}
+
 
 
 /* ======= the following is from style.css */
@@ -84,10 +111,10 @@ a:link {
     color: #10ebd2;
 }
 a:visited {
-    color: rgb(230, 20, 20);
+    color: violet;
 }
 a:hover, a:active, a:focus {
-    color: dodgerblue;
+    color: deepskyblue;
     text-decoration: underline;
 }
 #menulink {
@@ -141,8 +168,8 @@ a:hover, a:active, a:focus {
     text-decoration: none;
     text-transform: uppercase;
 }
-#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
-    color: #cb3a23;
+#navlinks :hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+    color: violet;
 }
 main, aside {
     margin-left: 4%;
