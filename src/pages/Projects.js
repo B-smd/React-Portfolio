@@ -19,7 +19,7 @@ class Projects extends Component {
                             <ProjectCard
                                 name={project.name}
                                 github={project.github}
-                                image={project.image}
+                                image={`${process.env.PUBLIC_URL}/${project.image}`}
                                 description={project.description}
                             />
                             <hr/>

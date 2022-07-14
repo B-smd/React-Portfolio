@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
     return (
         <embed
-            src="resume/cv.pdf"
+            src={`${process.env.PUBLIC_URL}/resume/cv.pdf`}
             type="application/pdf"
             frameBorder="0"
             scrolling="auto"

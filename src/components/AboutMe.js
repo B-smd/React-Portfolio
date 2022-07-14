@@ -6,7 +6,7 @@ export default function AboutMe() {
         <div className='aboutme text-justify'>
             
             
-            <img className="user-logo" src ="img/profile.jpeg" alt="bambang"/>
+            <img className="user-logo" src ={`${process.env.PUBLIC_URL}/img/profile.jpeg`} alt="bambang"/>
             <h2 className="text-center" style={{ color: "aquamarine"}}>About Me</h2>
             <p style={{ color: "powderblue"}}>
                 I am Bambang Sugiarto Micha Djaja a web developer and a graphic designer. I became an architect graduate from <a href="https://www.its.ac.id/arsitektur/">The Institut Teknologi Sepuluh Nopember (abbreviated as ITS) </a> 
