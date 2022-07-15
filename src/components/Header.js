@@ -6,7 +6,6 @@ export default function Header() {
         <header>
             <h1 style={{ color: "dodgerblue"}}>BAMBANG</h1>
             <nav>
-                {/* <h2 id="menulink"><a href="#navlinks">Menu</a></h2> */}
                 <ul className="displayed" id="navlinks">
                     <Link to="/React-Portfolio">Home</Link>
                     <Link to="aboutme">About me</Link>

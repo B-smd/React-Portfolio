@@ -7,7 +7,7 @@ const Resume = () => {
             type="application/pdf"
             frameBorder="0"
             scrolling="auto"
-            height="800px"
+            height="1000px"
             width="100%"
         ></embed>
     )
