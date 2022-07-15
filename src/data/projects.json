@@ -12,7 +12,7 @@
         "name": "Password Manager",
         "github": "https://github.com/B-smd/UWA-Group-Project-2-Password-Manager.git",
         "image": "img/project2.jpeg",
-        "description": "For Password Manager as a group of four, we use Node.js, Express.js, Handlebars.js, also use MySQL and the Sequelize ORM for the database. We use AES to encrypt and decrypt, MD5 Hashing and Bcryp" 
+        "description": "For Password Manager as a group of four, we use Node.js, Express.js, Handlebars.js, also use MySQL and the Sequelize ORM for the database. We use AES to encrypt and decrypt, MD5 Hashing & Bcryp" 
 
     },
     {
@@ -43,7 +43,7 @@
         "name": "Tech Blog",
         "github": "https://github.com/B-smd/Tech-Blog.git",
         "image": "img/project6.jpeg",
-        "description": "Tech Blog app the developer can publish their blog post and comment on other developer's post. It's utilising the MVC structure, routes, SQL, Handlebars, Sequelize as the ORM and authentication" 
+        "description": "Tech Blog app the developer can publish their blog post and comment on other developer's post. It's utilising the MVC structure, routes, SQL, Handlebars, Sequelize and also authentification." 
 
     }
 

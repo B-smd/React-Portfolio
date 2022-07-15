@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <nav className="container-fluid navbar navbar-expand-sm bg-dark justify-content-center">
+    <nav className="container-fluid navbar navbar-expand-sm justify-content-center">
       <div className="row">
 
         <a href="https://webmail.iinet.net.au/djaja@iinet.net.au"><img src="https://img.icons8.com/fluent/48/000000/mail--v1.png" alt="Mail" className="icon" width={"56"}/></a>

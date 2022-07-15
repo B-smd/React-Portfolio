@@ -6,9 +6,9 @@ export default function Header() {
         <header>
             <h1 style={{ color: "dodgerblue"}}>BAMBANG</h1>
             <nav>
-                <h2 id="menulink"><a href="#navlinks">Menu</a></h2>
+                {/* <h2 id="menulink"><a href="#navlinks">Menu</a></h2> */}
                 <ul className="displayed" id="navlinks">
-                    <Link to="/">Home</Link>
+                    <Link to="/React-Portfolio">Home</Link>
                     <Link to="aboutme">About me</Link>
                     <Link to="projects">Portfolio</Link>
                     <Link to="resume">Resume</Link>

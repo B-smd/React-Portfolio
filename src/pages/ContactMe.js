@@ -2,10 +2,10 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <form className='contactme text-primary'>
+        <form className='contactme text-light'>
             <div className="form-group">
                 <label for="nameinput">Name</label>
-                <input type="text" className="form-control" id="nameinput" placeholder="name@example.com"/>
+                <input type="text" className="form-control" id="nameinput" placeholder="name"/>
             </div>
             <div className="form-group">
                 <label for="emailInput">Email address</label>
