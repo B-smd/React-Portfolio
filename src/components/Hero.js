@@ -7,7 +7,7 @@ const Hero = () => {
             <video src={videoBg} autoPlay loop muted/>
             <div className="content text-center">
                 <h2 style={{ color: "cyan"}}>Welcome</h2>
-                <h6 style= {{color: "deepskyblue"}}>I am a Web Developer and Graphic Designer</h6>
+                <h6 style= {{color: "aliceblue"}}>I am a Web Developer and Graphic Designer</h6>
             </div>
             <p><img src={`${process.env.PUBLIC_URL}/img/bs.jpeg`} alt="Bambang"/></p>
         </div>

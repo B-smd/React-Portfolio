@@ -1,69 +1,113 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+  ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This React Portfolio is a single-page application portfolio has a single Header, Navigation and Footer component that appears on multiple pages. When we open the Github page link first appear the homepage, if you want to open About me, Portfolio, Resume and Contact, you can click the link you want to view without change the URl, only change the page. React is used Virtual DOM ( Document Object Model) that make it faster.Bambang Portfolio has display 6 projects, Updated Portfolio Page 2, Password Manager, Social Network API, BCKS Project, Employee Tracker and Tech Blog. This application doesn't include a back-end or connect to an API, so the contact form is not functional. I will add back-end functionality in the next few weeks. On the homepage I created a video as a background. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents (Optional)
 
-### `npm test`
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+- Add `homepage` to `package.json`Run:
+    "homepage": "https://B-smd.github.io/React-Portfolio".
+- Install `gh-pages`. Run:
+    `npm install --save gh-pages`.
+- Add `deploy` to `script` in `package.json`. Run:
+    `"scripts": {
+        "predeploy": "npm run build",
+        "deploy":  "gh-pages -d build",
+        "start": "react-script start",
+        "build": "react-script build",
+    }`
+- Deploy the site by running `npm run deploy`
+- For the font I use Adobe font `font-family: kandin, sans-serif`;
+   
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```md
+As a user,
+WHEN I load the portfolio
+THEN I am presented with a homepage containing a header with links, a video background, and a footer
+WHEN I view the header
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+WHEN I view the navigation titles
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+WHEN I click on a navigation title
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+WHEN I load the portfolio the first time
+THEN the homepage is selected by default
+WHEN I am presented with the About Me section
+THEN I see a recent photo or avatar of the developer and a short bio about them
+WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
+WHEN I move my cursor out of one of the form fields without entering text
+THEN I receive a notification that this field is required
+WHEN I enter text into the email address field
+THEN I receive a notification if I have entered an invalid email address
+WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+WHEN I view the footer
+THEN I am presented with icon links to the developer’s GitHub , Twitter and LinkedIn profiles. 
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Link demo page: [github](https://b-smd.github.io/React-Portfolio/)
 
-### `npm run eject`
+![React-Portfolio](public/img/ScreenShot1.png)
+![React-Portfolio](public/img/ScreenShot2.png)
+![React-Portfolio](public/img/ScreenShot3.png)
+![React-Portfolio](public/img/ScreenShot4.png)
+![React-Portfolio](public/img/ScreenShot5.png)
+![React-Portfolio](public/img/ScreenShot6.png)
+![React-Portfolio](public/img/ScreenShot7.png)
+![React-Portfolio](public/img/ScreenShot8.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Simon-Xu-Lan](https://github.com/Simon-Xu-Lan)
+- [Sam-Ngu](https://github.com/sam-ngu)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+    This application is covered by the MIT license.
 
-## Learn More
+---
+## Badges
+![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+n/a
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pull request are welcome, you can make a constribution at the bottom of any docs page to make small changes such as a typo, sentence fix or a broken link. For major changes, please open an issue first to discuss what you would like to change.
 
-### Analyzing the Bundle Size
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+n/a
 
-### Making a Progressive Web App
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have any question, [Email-me](djaja@iinet.net.au) 
 
-### Advanced Configuration
+Find me on GitHub: [B-smd](https://github.com/B-smd)   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
