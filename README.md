@@ -69,14 +69,14 @@ THEN I am presented with icon links to the developer’s GitHub , Twitter and Li
 
 - Link demo page: [github](https://b-smd.github.io/React-Portfolio/)
 
-![React-Portfolio](public/img/ScreenShot1.png)
-![React-Portfolio](public/img/ScreenShot2.png)
-![React-Portfolio](public/img/ScreenShot3.png)
-![React-Portfolio](public/img/ScreenShot4.png)
-![React-Portfolio](public/img/ScreenShot5.png)
-![React-Portfolio](public/img/ScreenShot6.png)
-![React-Portfolio](public/img/ScreenShot7.png)
-![React-Portfolio](public/img/ScreenShot8.png)
+![React-Portfolio](public/img/Screenshot1.png)
+![React-Portfolio](public/img/Screenshot2.png)
+![React-Portfolio](public/img/Screenshot3.png)
+![React-Portfolio](public/img/Screenshot4.png)
+![React-Portfolio](public/img/Screenshot5.png)
+![React-Portfolio](public/img/Screenshot6.png)
+![React-Portfolio](public/img/Screenshot7.png)
+![React-Portfolio](public/img/Screenshot8.png)
 
 ## Credits
 
