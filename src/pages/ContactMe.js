@@ -12,7 +12,7 @@ const ContactMe = () => {
                 <input type="email" className="form-control" id="emailInput" placeholder="name@example.com"/>
             </div>
             <div className="form-group">
-            <label for="comments">Comments</label>
+            <label for="message">Message</label>
             <textarea className="form-control" id="comments" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
