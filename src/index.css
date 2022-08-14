@@ -51,9 +51,11 @@ body {
         font-family: kandin, sans-serif;
 
 }
-
-
-
+img:hover {
+    transform: scale(1.4);
+    transition-duration: 0.5s
+  }
+  
 body {
     margin: 0;
     color: #4B4B4B;
@@ -150,7 +152,7 @@ a:hover, a:active, a:focus {
 }
 
 nav {
-    background-color: black;
+    /* background-color: black; */
     display:flex;
     justify-content: space-around;
 }
@@ -158,7 +160,7 @@ nav {
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     font-size: 0.8em;
     text-align: center;
@@ -197,14 +199,7 @@ footer {
     width: 100%;
     height: 65vh;
     position: relative;
-}
-
-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
+}  
 .content {
     position: absolute;
     width: 100%;

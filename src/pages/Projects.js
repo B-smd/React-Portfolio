@@ -15,7 +15,7 @@ class Projects extends Component {
         return (
             <Row>
                 {this.state.projects.map( project => (
-                        <Col>
+                        <Col className='card'>
                             <ProjectCard
                                 name={project.name}
                                 github={project.github}
