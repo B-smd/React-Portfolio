@@ -4,8 +4,8 @@ function ProjectCard(props) {
     return (
         <div className="card">
             <img 
-                src={props.image} 
                 className="card-img-top" 
+                src={props.image} 
                 alt="project screenshot"
             />
             <div className="card-body text-center">
