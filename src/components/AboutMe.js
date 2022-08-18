@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function AboutMe() {
@@ -6,7 +7,8 @@ export default function AboutMe() {
         <div className='aboutme text-justify'>
             
             
-            <img className="user-logo" src ={`${process.env.PUBLIC_URL}/img/profile.jpeg`} alt="bambang"/>
+            <Link to="/contact"><img className="user-logo" src ={`${process.env.PUBLIC_URL}/img/profile.jpeg`} alt="bambang"/></Link>
+
             <h2 className="text-center" style={{ color: "aquamarine"}}>About Me</h2>
             <p className="Me" style={{ color: "powderblue"}}>
                 I am Bambang Sugiarto Micha Djaja a web developer and a graphic designer. 

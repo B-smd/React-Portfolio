@@ -73,6 +73,8 @@ THEN I am presented with icon links to the developer’s GitHub , Twitter and Li
 ![React-Portfolio](public/img/Screenshot6.png)
 ![React-Portfolio](public/img/Screenshot7.png)
 ![React-Portfolio](public/img/Screenshot8.png)
+![React-Portfolio](public/img/Screenshot9.png)
+![React-Portfolio](public/img/Screenshot10.png)
 
 ## Credits
 
