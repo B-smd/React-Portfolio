@@ -24,8 +24,8 @@ export default function AboutMe() {
                 In year 1984 - 2000, as a Commisioner in Construction Company.
             </p>
             <p className="Me" style={{ color: "powderblue"}}>
-            In this Portfolio, I displayed Update Portfolio Page 2, Password Manager, Social Network API,
-            BCKS Project, Employee Tracker and Tech Blog.
+            In this Portfolio, I displayed Life Stories, Update Portfolio Page 2, Password Manager, Social Network API,
+            Employee Tracker and BCKS Project.
             </p> 
             <br/>        
         </div>

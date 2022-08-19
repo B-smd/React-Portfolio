@@ -5,7 +5,7 @@
 
 ## Description
 
-This React Portfolio is a single-page application portfolio has a single Header, Navigation and Footer component that appears on multiple pages. When we open the Github page link first appear the homepage, if you want to open About me, Portfolio, Resume and Contact, you can click the link you want to view without change the URl, only change the page. React is used Virtual DOM ( Document Object Model) that make it faster.Bambang Portfolio has display 6 projects, Updated Portfolio Page 2, Password Manager, Social Network API, BCKS Project, Employee Tracker and Tech Blog. This application doesn't include a back-end or connect to an API, so the contact form is not functional. I will add back-end functionality in the next few weeks. On the homepage I created a video as a background. 
+This React Portfolio is a single-page application portfolio has a single Header, Navigation and Footer component that appears on multiple pages. When we open the Github page link first appear the homepage, if you want to open About me, Portfolio, Resume and Contact, you can click the link you want to view without change the URl, only change the page. React is used Virtual DOM ( Document Object Model) that make it faster.Bambang Portfolio has display 6 projects: Life Stories, Updated Portfolio Page 2, Password Manager, Social Network API,  Employee Tracker and BCKS Project. This application doesn't include a back-end or connect to an API, so the contact form is not functional. I will add back-end functionality for the future. On the homepage I created tsparticles as a background. 
 
 ## Table of Contents (Optional)
 
@@ -40,7 +40,7 @@ This React Portfolio is a single-page application portfolio has a single Header,
 ```md
 As a user,
 WHEN I load the portfolio
-THEN I am presented with a homepage containing a header with links, a video background, and a footer
+THEN I am presented with a homepage containing a header with links, a hero with tsparticles background, and a footer
 WHEN I view the header
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 WHEN I view the navigation titles
@@ -50,7 +50,7 @@ THEN I am presented with the corresponding section below the navigation without 
 WHEN I load the portfolio the first time
 THEN the homepage is selected by default
 WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
+THEN I see a recent photo of the developer and a short bio about them
 WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
 WHEN I am presented with the Contact section

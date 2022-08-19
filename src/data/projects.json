@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "name": "Life Story",
+        "name": "Life Stories",
         "github": "https://github.com/B-smd/Life-Stories",
         "demo": "https://life-stories-bambang.herokuapp.com/",
         "image": "img/project1.jpeg",
-        "description": "The user can share their story to encourage another. I buid this app with Mern, MongoDB as a backend use Graphql to connect react with the help of Apollo client. For authentication used JWT to create a token." 
+        "description": "The user can share their story to encourage another. In this app I use Mern, MongoDB as a backend use Graphql to connect react with the help of Apollo client. For authentication used JWT to create a token." 
 
     },
     {
