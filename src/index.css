@@ -4,18 +4,6 @@
 html {
     box-sizing: border-box;
 }
-/* *, *:before, *:after {
-    box-sizing: inherit;
-}
-@import url("https://use.typekit.net/hwq0pun.css"); */
-/* .col {
-  width:100%;
-  height:100%;
-} */ 
-
-/* body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-  } */
 #root {
     background-color: black;
 }
@@ -28,9 +16,8 @@ header {
     background-color: black;
     width: 70%;
     margin: auto;
-    /* align-items: center; */
     text-align: center;
-    height: 145vh;
+    max-height: 100%;
 }
 .about.me {
     width: 100%;
@@ -84,7 +71,6 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
-    /* background-color: #EFF5F8; */
 }
 body {
     width: 100%;
@@ -251,7 +237,7 @@ main {
     background-color: black;
 }
 .contactme {
-    height: 116vh;
+    max-height: 100%;
     padding: 2rem;
 }
 .row-cols-1 {
