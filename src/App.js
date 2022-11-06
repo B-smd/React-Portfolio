@@ -10,7 +10,6 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import ContactMe from './pages/ContactMe';
 
-
 function App() {
   return (
     <Router>
