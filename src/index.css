@@ -92,7 +92,7 @@ h1 {
 }
 h3 {
     margin-top: 1em;
-    color:rgb(26, 57, 82)
+    color:rgb(55, 100, 136)
 }
 #wrapper {
     background-color: black;
@@ -226,7 +226,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 30%;
+    padding-top: 25%;
     color: white;
 }
 

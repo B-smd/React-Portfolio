@@ -2,7 +2,7 @@ import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Link } from 'react-router-dom';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaBootstrap, FaReact, FaNode } from 'react-icons/fa';
+import { DiHtml5, DiCss3, DiJavascript, DiJqueryLogo, DiBootstrap, DiNodejs, DiMysql, DiReact, DiMongodb } from 'react-icons/di';
 
 const Hero = () => {
     const particlesInit = async (main) => {
@@ -99,7 +99,8 @@ const Hero = () => {
             <div className="content text-center">
                 <h2 style={{ color: "cyan"}}>Welcome</h2>
                 <h6 style= {{color: "dodgerblue"}}>I am a Web Developer and Graphic Designer</h6>
-                <h3>< FaHtml5/><FaCss3Alt/><FaNode/><FaJsSquare/><FaReact/><FaBootstrap/></h3>
+                <h5 style= {{color: "dodgerblue"}}>SKILLS :</h5>
+                <h3>< DiHtml5/>< DiCss3 />< DiJavascript />< DiJqueryLogo />< DiBootstrap />< DiNodejs />< DiMysql />< DiReact />< DiMongodb /></h3>
             </div>
             <Link to="/aboutme"><p><img src={`${process.env.PUBLIC_URL}/img/bs.jpeg`} alt="Bambang"/></p></Link>
   
